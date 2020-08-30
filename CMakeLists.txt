@@ -3,4 +3,4 @@ project(untitled2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled2 HM_Strings3.c)
+add_executable(untitled2 Structures.c)

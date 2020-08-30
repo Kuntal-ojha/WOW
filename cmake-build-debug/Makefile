@@ -142,32 +142,32 @@ untitled2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
-HM_Strings3.obj: HM_Strings3.c.obj
+Structures.obj: Structures.c.obj
 
-.PHONY : HM_Strings3.obj
+.PHONY : Structures.obj
 
 # target to build an object file
-HM_Strings3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/HM_Strings3.c.obj
-.PHONY : HM_Strings3.c.obj
+Structures.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Structures.c.obj
+.PHONY : Structures.c.obj
 
-HM_Strings3.i: HM_Strings3.c.i
+Structures.i: Structures.c.i
 
-.PHONY : HM_Strings3.i
+.PHONY : Structures.i
 
 # target to preprocess a source file
-HM_Strings3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/HM_Strings3.c.i
-.PHONY : HM_Strings3.c.i
+Structures.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Structures.c.i
+.PHONY : Structures.c.i
 
-HM_Strings3.s: HM_Strings3.c.s
+Structures.s: Structures.c.s
 
-.PHONY : HM_Strings3.s
+.PHONY : Structures.s
 
 # target to generate assembly for a file
-HM_Strings3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/HM_Strings3.c.s
-.PHONY : HM_Strings3.c.s
+Structures.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Structures.c.s
+.PHONY : Structures.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled2
-	@echo ... HM_Strings3.obj
-	@echo ... HM_Strings3.i
-	@echo ... HM_Strings3.s
+	@echo ... Structures.obj
+	@echo ... Structures.i
+	@echo ... Structures.s
 .PHONY : help
 
 

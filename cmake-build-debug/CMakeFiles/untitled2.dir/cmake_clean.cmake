@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled2.dir/Structures.c.obj"
+  "CMakeFiles/untitled2.dir/GStarted1.c.obj"
   "libuntitled2.dll.a"
   "untitled2.exe"
   "untitled2.exe.manifest"

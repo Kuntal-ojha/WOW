@@ -3,4 +3,4 @@ project(untitled2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled2 Structures.c)
+add_executable(untitled2  GStarted1.c)

@@ -142,32 +142,32 @@ untitled2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
-Structures.obj: Structures.c.obj
+GStarted1.obj: GStarted1.c.obj
 
-.PHONY : Structures.obj
+.PHONY : GStarted1.obj
 
 # target to build an object file
-Structures.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Structures.c.obj
-.PHONY : Structures.c.obj
+GStarted1.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/GStarted1.c.obj
+.PHONY : GStarted1.c.obj
 
-Structures.i: Structures.c.i
+GStarted1.i: GStarted1.c.i
 
-.PHONY : Structures.i
+.PHONY : GStarted1.i
 
 # target to preprocess a source file
-Structures.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Structures.c.i
-.PHONY : Structures.c.i
+GStarted1.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/GStarted1.c.i
+.PHONY : GStarted1.c.i
 
-Structures.s: Structures.c.s
+GStarted1.s: GStarted1.c.s
 
-.PHONY : Structures.s
+.PHONY : GStarted1.s
 
 # target to generate assembly for a file
-Structures.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Structures.c.s
-.PHONY : Structures.c.s
+GStarted1.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/GStarted1.c.s
+.PHONY : GStarted1.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled2
-	@echo ... Structures.obj
-	@echo ... Structures.i
-	@echo ... Structures.s
+	@echo ... GStarted1.obj
+	@echo ... GStarted1.i
+	@echo ... GStarted1.s
 .PHONY : help
 
 

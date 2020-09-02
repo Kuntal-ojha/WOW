@@ -142,33 +142,6 @@ untitled2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
-QA03.obj: QA03.c.obj
-
-.PHONY : QA03.obj
-
-# target to build an object file
-QA03.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/QA03.c.obj
-.PHONY : QA03.c.obj
-
-QA03.i: QA03.c.i
-
-.PHONY : QA03.i
-
-# target to preprocess a source file
-QA03.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/QA03.c.i
-.PHONY : QA03.c.i
-
-QA03.s: QA03.c.s
-
-.PHONY : QA03.s
-
-# target to generate assembly for a file
-QA03.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/QA03.c.s
-.PHONY : QA03.c.s
-
 QA03_1.obj: QA03_1.c.obj
 
 .PHONY : QA03_1.obj
@@ -196,33 +169,6 @@ QA03_1.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/QA03_1.c.s
 .PHONY : QA03_1.c.s
 
-Qa02_1.obj: Qa02_1.c.obj
-
-.PHONY : Qa02_1.obj
-
-# target to build an object file
-Qa02_1.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Qa02_1.c.obj
-.PHONY : Qa02_1.c.obj
-
-Qa02_1.i: Qa02_1.c.i
-
-.PHONY : Qa02_1.i
-
-# target to preprocess a source file
-Qa02_1.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Qa02_1.c.i
-.PHONY : Qa02_1.c.i
-
-Qa02_1.s: Qa02_1.c.s
-
-.PHONY : Qa02_1.s
-
-# target to generate assembly for a file
-Qa02_1.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/Qa02_1.c.s
-.PHONY : Qa02_1.c.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -232,15 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled2
-	@echo ... QA03.obj
-	@echo ... QA03.i
-	@echo ... QA03.s
 	@echo ... QA03_1.obj
 	@echo ... QA03_1.i
 	@echo ... QA03_1.s
-	@echo ... Qa02_1.obj
-	@echo ... Qa02_1.i
-	@echo ... Qa02_1.s
 .PHONY : help
 
 

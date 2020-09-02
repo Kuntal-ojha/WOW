@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled2.dir/QA03.c.obj"
   "CMakeFiles/untitled2.dir/QA03_1.c.obj"
-  "CMakeFiles/untitled2.dir/Qa02_1.c.obj"
   "libuntitled2.dll.a"
   "untitled2.exe"
   "untitled2.exe.manifest"

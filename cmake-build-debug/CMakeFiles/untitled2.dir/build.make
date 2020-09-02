@@ -76,27 +76,27 @@ include CMakeFiles/untitled2.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled2.dir/flags.make
 
-CMakeFiles/untitled2.dir/QA03_1.c.obj: CMakeFiles/untitled2.dir/flags.make
-CMakeFiles/untitled2.dir/QA03_1.c.obj: ../QA03_1.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dell\CLionProjects\MyProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled2.dir/QA03_1.c.obj"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\QA03_1.c.obj   -c C:\Users\dell\CLionProjects\MyProject\QA03_1.c
+CMakeFiles/untitled2.dir/QA04_1.c.obj: CMakeFiles/untitled2.dir/flags.make
+CMakeFiles/untitled2.dir/QA04_1.c.obj: ../QA04_1.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\dell\CLionProjects\MyProject\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/untitled2.dir/QA04_1.c.obj"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\untitled2.dir\QA04_1.c.obj   -c C:\Users\dell\CLionProjects\MyProject\QA04_1.c
 
-CMakeFiles/untitled2.dir/QA03_1.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/QA03_1.c.i"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dell\CLionProjects\MyProject\QA03_1.c > CMakeFiles\untitled2.dir\QA03_1.c.i
+CMakeFiles/untitled2.dir/QA04_1.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/untitled2.dir/QA04_1.c.i"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\dell\CLionProjects\MyProject\QA04_1.c > CMakeFiles\untitled2.dir\QA04_1.c.i
 
-CMakeFiles/untitled2.dir/QA03_1.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/QA03_1.c.s"
-	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dell\CLionProjects\MyProject\QA03_1.c -o CMakeFiles\untitled2.dir\QA03_1.c.s
+CMakeFiles/untitled2.dir/QA04_1.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/untitled2.dir/QA04_1.c.s"
+	C:\PROGRA~1\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\dell\CLionProjects\MyProject\QA04_1.c -o CMakeFiles\untitled2.dir\QA04_1.c.s
 
 # Object files for target untitled2
 untitled2_OBJECTS = \
-"CMakeFiles/untitled2.dir/QA03_1.c.obj"
+"CMakeFiles/untitled2.dir/QA04_1.c.obj"
 
 # External object files for target untitled2
 untitled2_EXTERNAL_OBJECTS =
 
-untitled2.exe: CMakeFiles/untitled2.dir/QA03_1.c.obj
+untitled2.exe: CMakeFiles/untitled2.dir/QA04_1.c.obj
 untitled2.exe: CMakeFiles/untitled2.dir/build.make
 untitled2.exe: CMakeFiles/untitled2.dir/linklibs.rsp
 untitled2.exe: CMakeFiles/untitled2.dir/objects1.rsp

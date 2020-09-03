@@ -8,10 +8,10 @@ int main()
     float a,b;
     scanf("%f",&a,printf("Enter 1st Number:\n"));
     scanf("%f",&b,printf("Enter 2nd Number:\n"));
-    printf("Addition (%.1f)+(%.1f) is:\n%.2f",a,b,a+b);
-    printf("\nSubtraction (%.1f)+(%.1f) is:\n%.2f",a,b,a-b);
-    printf("\nMultiplication (%.1f)+(%.1f) is:\n%.2f",a,b,a*b);
-    printf("\nDivision (%.1f)+(%.1f) is:\n%.2f",a,b,a/b);
+    printf("Addition (%.2f)+(%.2f) is:\n%.2f",a,b,a+b);
+    printf("\nSubtraction (%.2f)-(%.2f) is:\n%.2f",a,b,a-b);
+    printf("\nMultiplication (%.2f)*(%.2f) is:\n%.2f",a,b,a*b);
+    printf("\nDivision (%.2f)/(%.2f) is:\n%.2f",a,b,a/b);
     getch();
 }
 

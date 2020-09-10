@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/dell/CLionProjects/MyProject/QA04_1.c
+C:/Users/dell/CLionProjects/MyProject/C_Instructions11.c
 stdio.h
 -
 conio.h
+-
+math.h
 -
 

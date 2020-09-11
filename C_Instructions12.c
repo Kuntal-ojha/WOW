@@ -1,4 +1,4 @@
-// Question [H] (b)
+// Question [H] (e)
 // Created by KUNTAL OJHA RAJ on 9/10/2020.
 // Write a program to receive values of latitude (L1,L2) and
 // longitude (G1,G2), in degrees of two places on the earth and
@@ -22,5 +22,6 @@ int main()
     lon2=lon2*3.14/180;
     d=3963*acos(sin(lat1)*sin(lat2)+cos(lat1)*cos(lat1)*cos(lat2)*cos(lon2-lon1));
     printf("Distance Between Place1 and Place2:%f",d);
+    return 0;
 }
 

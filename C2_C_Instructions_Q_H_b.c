@@ -1,6 +1,6 @@
 // Question [H] (b)
 // If a Five-digit number is input through the keyboard,write a program to Revers the Number.
-// (Hint: Use the modulus operator '%'
+// (Hint: Use the modulus operator '%')
 // Created by KUNTAL OJHA RAJ on 9/8/2020.
 // Reverse digits of a 5 digits Numbers
 #include <stdio.h>

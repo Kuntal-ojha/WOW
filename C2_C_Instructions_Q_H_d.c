@@ -2,6 +2,7 @@
 // Created by KUNTAL OJHA RAJ on 9/10/2020.
 // Write a Program to receive Cartesian co-ordinates (X,Y) of a point
 // And convert them into polar Co-Ordinates (r,Psi)
+// Hint: r=square(x^2+y^2)and psi=tan^-1(y/x)
 // Hear i Use a New Function sqrt()
 // sqrt() It's Means Square Rout And cbrt() It's Means Cube Rout
 #include <stdio.h>

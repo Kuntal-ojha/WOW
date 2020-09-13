@@ -1,6 +1,6 @@
 // C Instructions Chapter:02
 // Created by KUNTAL OJHA RAJ on 9/8/2020.
-//
+// Very Simple Question.
 #include <stdio.h>
 int main()
 {

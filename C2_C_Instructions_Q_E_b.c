@@ -1,4 +1,4 @@
-// Example of E(b) Example of %
+// Example of %
 // Created by KUNTAL OJHA RAJ on 9/8/2020.
 //  a%b if (a<b) Then Allays Answer is a.
 #include <stdio.h>

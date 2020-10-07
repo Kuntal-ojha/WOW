@@ -13,4 +13,5 @@ int main()
         printf("The number is even:%d",j);
     else
         printf("The number is odd:%d",j);
+    return 0;
 }

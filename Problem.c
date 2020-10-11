@@ -8,8 +8,11 @@
 #include <math.h>
 int main()
 {
+    int a,b;
     for (int i = 1; i > 0; ++i)
     {
-        printf("My Name is KUNTAL OJHA\n");
+        a=b*b;
+        printf("My Name is KUNTAL OJHA %d\n",a);
+        b=b+1;
     }
 }

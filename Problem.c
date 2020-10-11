@@ -8,13 +8,15 @@
 #include <math.h>
 int main()
 {
-    int a,b=0,c;
+    int a,b=0,c,d;
     for (int i = 1; i > 0; ++i)
     {
         a=b*b;
         c=pow(2,b);
+        d=a-c;
         printf("My Name is KUNTAL OJHA %d\n",a);
-        printf("My Name is KUNTAL  %d\n\n",c);
+        printf("My Name is KUNTAL  %d\n",c);
+        printf("My Name is KUNTAL OJHA %d\n\n",d);
         b=b+1;
     }
 }

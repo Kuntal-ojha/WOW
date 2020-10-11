@@ -8,7 +8,7 @@
 #include <math.h>
 int main()
 {
-    int a,b=0,c=0;
+    int a,b=0,c;
     for (int i = 1; i > 0; ++i)
     {
         a=b*b;

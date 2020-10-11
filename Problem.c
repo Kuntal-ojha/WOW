@@ -6,6 +6,7 @@
 // pow(a,b) = a^b
 #include <stdio.h>
 #include <math.h>
+#include <conio.h>
 int main()
 {
     int a,b=0,c,d;
@@ -14,9 +15,11 @@ int main()
         a=b*b;
         c=pow(2,b);
         d=a-c;
-        printf("My Name is KUNTAL OJHA %d\n",a);
-        printf("My Name is KUNTAL  %d\n",c);
-        printf("My Name is KUNTAL OJHA %d\n\n",d);
+        if (d==1)
+        {
+            printf("Value of X=%d\n",b);
+        }
         b=b+1;
     }
+    getch();
 }

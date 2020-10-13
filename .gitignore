@@ -1,16 +1,21 @@
 # Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
 ### C template
+*.exe
+*.make
+*.cmake
+*.rsp
 # Prerequisites
 *.d
-
-#.Text Files
-*.txt
-*.cbp
-*.rsp
-*.a
-*.cmake
-*.make
-
+CMakeLists.txt
+.txt
 # Object files
 *.o
 *.ko
@@ -28,6 +33,7 @@
 
 # Libraries
 *.lib
+*.a
 *.la
 *.lo
 
@@ -60,6 +66,7 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+.gitignore
 cmake-build-debug-coverage/
 cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/tmp/
 cmake-build-debug/CMakeFiles/CMakeTmp/
@@ -83,6 +90,8 @@ cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions3.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions6.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions7.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/File_IO.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/First_Year_2.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/First_Year_4_1.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/GATE_Unit_03_Q01.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/GATE_Unit_03_Q01_2.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/G_Started2.c.obj
@@ -108,58 +117,3 @@ cmake-build-debug/CMakeFiles/untitled2.dir/Structures5.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/Structures7.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/Structures8.c.obj
 cmake-build-debug/CMakeFiles/untitled2.dir/Structures9.c.obj
-cmake-build-debug/CMakeFiles/Progress/1
-### C template
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-

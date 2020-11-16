@@ -1,6 +1,5 @@
-// [C] Attempt the following Question (c)
+// [C] Attempt the following Question (d)
 // Created by KUNTAL OJHA RAJ on 10/7/2020.
-// Question (d)
 // According to Gregorian calender, it was Monday on the date 01/01/01.
 // If any year is input through the keyboard write a program to find out
 // what is the day on 1st January of this year.

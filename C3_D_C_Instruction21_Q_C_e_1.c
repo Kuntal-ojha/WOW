@@ -37,8 +37,12 @@ int main()
     printf("You Enter :%d\n",e);
     printf("Revers Number:%d\n\n",d);
     if(e==d)
-        printf("Your Enter Number & Revers Number are Equal.\n");
+        printf("Your Enter Number & Revers Number are same.\n");
     else
-        printf("Your Enter Number & Revers Number are not Equal.\n");
+    if (e>d)
+        printf("Your Enter Number is greater then Revers Number.\n");
+    else
+        printf("Revers Number is greater then Your Enter Number.\n");
     return 0;
 }
+

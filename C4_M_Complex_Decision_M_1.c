@@ -8,10 +8,18 @@
  * ==>
  * In all others case, the driver is not insured.If the marital status,
  * sex and age of the driver are the inputs, Write a program to determine
- * whether the driver should be insured or note.
+ * whether the driver should be insured or not.
  */
 #include <stdio.h>
 int main()
 {
-
+    int age;
+    char sex,marital_status;
+    printf("\nEnter age,sex(Male=M & Female=F),marital(Married=M & Unmarried=U) status:\n");
+    scanf("%d %c %c",&age,&sex,&marital_status);
+     if ((marital_status=='M')||((marital_status=='U')&&(age>30)&&(sex=='M'))||((marital_status=='U')&&(age>25)&&(sex=='F')))
+        printf("Driver should be insured.\n");
+    else
+        printf("Driver should not be insured.\n");
+    return 0;
 }

@@ -1,5 +1,5 @@
-// Simple Question Page:60.
-// Created by KUNTAL OJHA RAJ on 11/21/2020.
+//
+// Created by KUNTAL OJHA RAJ on 11/22/2020.
 // A Company insures its drives in the following cases:
 /*
  * 1.If the driver is married.
@@ -15,9 +15,9 @@ int main()
 {
     int age;
     char sex,marital_status;
-    printf("\nEnter age,sex(Male=M & Female=F),marital(Married=M & Unmarried=U) status:\n");
+    printf("\nEnter age,sex(Male=M & Female=F) and marital(Married=M & Unmarried=U) status:\n");
     scanf("%d %c %c",&age,&sex,&marital_status);
-    if ((marital_status=='M')||((marital_status=='U')&&(sex=='M')&&(age>30))||((marital_status=='U')&&(sex=='F')&&(age>25)))
+    if ((marital_status=='M')||((marital_status=='U')&&((sex=='M'&& age>30)||(sex=='F'&&age>25))))
         printf("Driver should be insured.\n");
     else
         printf("Driver should not be insured.\n");

@@ -1,4 +1,3 @@
-// Q3. Neso Academy
 // Created by KUNTAL OJHA RAJ on 10/16/2020.
 // What will be the Output of the following C Program Fragment:
 #include<stdio.h>

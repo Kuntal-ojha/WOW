@@ -1,17 +1,13 @@
-//
-// Created by KUNTAL OJHA RAJ on 11/7/2020.
-//
+// VERY VERY Important program.
+// Created by KUNTAL OJHA RAJ on 12/02/2020.
+// Basic program using int and float.
 #include <stdio.h>
 int main()
 {
-    printf(" Hello World");
-    return 0;
+    int GOOD=10;
+    float BAD=10;
+    printf("int GOOD=%d\n",GOOD);
+    printf("%d\n",BAD);
+    printf("float BAD=%f\n",GOOD);
+    printf("%f\n",BAD);
 }
-
-
-
-
-
-
-
-

@@ -3,4 +3,5 @@ project(untitled2 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(untitled2 C6_M_Complex_Repetitions_3.c)
+# add_executable(untitled2 file.c ) // write the file name end with .c
+add_executable(untitled2 For_Loop_4.c)

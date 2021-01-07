@@ -15,7 +15,7 @@
  *       and this;
  *       and this;
  *     }
- */
+ *
 #include <stdio.h>
 int main()
 {

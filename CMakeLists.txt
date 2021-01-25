@@ -4,4 +4,4 @@ project(untitled2 C)
 set(CMAKE_C_STANDARD 99)
 
 # add_executable(untitled2 file.c ) // write the file name end with .c
-add_executable(untitled2  Pattern_2.c)
+add_executable(untitled2  C4_M_Complex_Decision_M_Q_C_c.c)

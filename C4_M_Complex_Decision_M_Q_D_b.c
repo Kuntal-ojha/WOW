@@ -18,9 +18,9 @@ int main()
     printf("Enter character:\n");
     scanf("%c",&a);
     if(a>64&&a<91)
-        printf("It's capital leater.");
+        printf("It's capital letter.");
     else if(a>=97&&a<=122)
-        printf("It's small case leater.");
+        printf("It's small case letter.");
     else if(a>=48&&a<=57)
         printf("It's digits.");
     else if((a>=0&&a<=47)||(a>=58&&a<=64)||(a>=91&&a<=96)||(a>=123&&a<=127))

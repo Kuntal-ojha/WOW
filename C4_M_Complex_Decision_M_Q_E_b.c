@@ -7,7 +7,7 @@
 int main()
 {
     int year;
-    perror("\nEnter year:\n");
+    printf("\nEnter year:\n");
     scanf("%d",&year);
     year%100==0 ?(year%400==0 ?  printf("Leap Year") :
     printf("Not a Leap Year")):

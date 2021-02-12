@@ -8,11 +8,21 @@
 #include <stdio.h>
 int main()
 {
-    int i,j,a=1;
-    printf("Enter a number:\n");
+    int i,j;
+    unsigned long int a=1;
+    printf("Enter a number (Less than 34):\n");
     scanf("%d",&j);
-    for (i=j ; i> 0 ; i++) {
-        a=a*i;
+    if (j<34)
+    {
+        for (i=j;i>0;i--)
+        {
+            a=a*i;
+        }
+        printf("Factorial of %d is %lu",j,a);
     }
-    printf("%d",a);
+    else
+    {
+        printf("Enter number is <34 or equal to 34");
+    }
+    return 0;
 }

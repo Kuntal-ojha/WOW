@@ -10,10 +10,54 @@
 #include <stdio.h>
 int main()
 {
+    int  j,k,l,m,n,o,p;
+    for (int i = 1; i < 10; ++i) {
+        k=i%10;
+        l=k*k*k;
+        if (i==l)
+        {
+            printf("The Armstrong number is %d\n",i);
+            continue;
+        }
+    }
+    for (int i = 10; i < 100; ++i) {
+        k=i%10;
+        l=k;
+        k=i%10;
+        n=k;
+        p=l+n;
+        if (i==p)
+        {
+            printf("The Armstrong number is %d\n",i);
+            continue;
+        }
+    }
+    for (int i = 101; i < 500; ++i) {
+        k=i%10;
+        l=k;
+        k=i%10;
+        n=k;
+        k=i%10;
+        m=k;
+        p=l+n+m;
+        if (i==p)
+        {
+            printf("The Armstrong number is %d\n",i);
+            continue;
+        }
+    }
+
+}
+/*
+ * {
     int k,l,m,sum;
     for (int i = 1; i <501 ; i++)
     {
         for (int j = 1; j <=3; ++j)
+        {
+
+        }
+        /*
         {
             if (i<10)
             {
@@ -38,8 +82,7 @@ int main()
                     break;
                 }
             }
-            printf("i=%d j=%d\n\n",i,j);
-        }
-    }
-    return 0;
 }
+return 0;
+}
+ */

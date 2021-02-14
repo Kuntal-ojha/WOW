@@ -10,17 +10,22 @@
 #include <stdio.h>
 int main()
 {
-    int i=153;
-    int a,b,c,d;
-    printf("%d\n",i);
-    a=i%10;
-    printf("%d\n",a);
-    i=i/10;
-    printf("%d\n",i);
-    b=i%10;
-    printf("%d\n",b);
-    i=i/10;
-    printf("%d\n",i);
+    int a,b,c,d,i=1;
+    while (i<=500)
+    {
+
+        printf("i=%d\n",i);
+        a=i%10;
+        printf("a=%d\n",a);
+        i=i/10;
+        printf("i=%d\n",i);
+        b=i%10;
+        printf("b=%d\n",b);
+        i=i/10;
+        printf("i=%d\n",i);
+        printf("\n");
+        i++;
+    }
 
 }
 /*

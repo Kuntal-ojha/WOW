@@ -10,6 +10,16 @@
 #include <stdio.h>
 int main()
 {
+    int i=153;
+    while (1)
+    {
+
+    }
+}
+/*
+ * #include <stdio.h>
+int main()
+{
     int  j,k,l,m,n,o,p;
     for (int i = 1; i < 10; ++i) {
         k=i%10;

@@ -7,14 +7,15 @@
 #include <conio.h>
 int main()
 {
-    int r,n,sum;
+    int r,n,sum=0,i=5;
     printf("Enter a 5 Digits Number:\n");
     scanf("%d",&n);
-    while (n>0)
+    while (i>=0)
     {
         r=n%10;
         sum=sum+r;
         n=n/10;
+        i--;
     }
     printf("The sum of the 5 digits is:%d",sum);
     getch();

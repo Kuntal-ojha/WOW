@@ -16,15 +16,15 @@ int main()
     sum=sum+a; // Sum update with addition of Extracted digit.
 
     a=n%10; // 4 Digit
-    n=num/10;
+    n=n/10;
     sum=sum+a;
 
     a=n%10; // 3 Digit
-    n=num/10;
+    n=n/10;
     sum=sum+a;
 
     a=n%10; // 2 Digit
-    n=num/10;
+    n=n/10;
     sum=sum+a;
 
     a=n%10; // 1 Digit

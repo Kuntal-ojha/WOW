@@ -6,10 +6,15 @@ int main()
 {
     char ch1,ch2;
     printf("Enter first character:\n");
-    scanf("%c",&ch1);
+    scanf(" %c",&ch1);
+    /*
+     *  The right one is scanf(" %c",&ch1);
+     *  We must be use a space before %c like that
+     *  scanf(" %c",&ch1);
+     */
+
     printf("Enter second character:\n");
-    scanf("%c",&ch2);
+    scanf(" %c",&ch2);
     printf("First character is %c\nSecond Character is %c",ch1,ch2);
     return 0;
-    // I don't know why second scanf isen't work.
 }

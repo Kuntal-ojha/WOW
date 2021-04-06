@@ -1,4 +1,5 @@
 // [D] Attempt the following
+// Question f
 /*
  * A certain of steel is graded according to the following conditions:
  * (i) Hardness must be greater than 50
@@ -17,5 +18,37 @@
  *  and output the grade of the steel.
  */
 // Created by KUNTAL OJHA RAJ on 1/29/2021.
-//
+#include <stdio.h>
+int main()
+{
+
+    int Hardness,Tensile_Strength;
+    float Carbon_Content;
+    printf("Enter the hardness of steel:\n");
+    scanf("%d",&Hardness);
+    printf("Enter the Carbon content:(Floating point)\n");
+    scanf("%f",&Carbon_Content);
+    printf("Enter the Tensile strength:\n");
+    scanf("%d",&Tensile_Strength);
+    if (Hardness>50 && Carbon_Content <0.7 && Tensile_Strength>5600)
+    {
+        printf("Grade is 10");
+    } else if (Hardness>50 && Carbon_Content <0.7)
+    {
+        printf("Grade is 09");
+    } else if (Carbon_Content <0.7 && Tensile_Strength>5600)
+    {
+        printf("Grade is 08");
+    } else if (Hardness>50 && Tensile_Strength>5600)
+    {
+        printf("Grade is 07");
+    } else if (Hardness>50 || Carbon_Content <0.7 || Tensile_Strength>5600)
+    {
+        printf("Grade is 06");
+    } else
+    {
+        printf("Grade is 05");
+    }
+    return 0;
+}
 

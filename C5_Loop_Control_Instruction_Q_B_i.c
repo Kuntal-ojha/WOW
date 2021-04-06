@@ -8,5 +8,9 @@
 #include <stdio.h>
 int main()
 {
+    int n;
+    flag=0;
+    printf("\nHow many numbers are there in a set?\n");
+    scanf("%d",&n);
     return 0;
 }

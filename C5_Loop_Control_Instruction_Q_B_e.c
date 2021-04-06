@@ -1,6 +1,7 @@
 // [B] Attempt the following :
-// Created by KUNTAL OJHA RAJ on 2/11/2021.
+// Created by KUNTAL OJHA RAJ on 2/14/2021 And 2/15/2021.
 // Question (e)
+// Very Important Question.
 /*
  * Write a program to print out all the Armstrong number between
  * 1 to 500. If sum of cubes of each digits of number is equal
@@ -10,101 +11,17 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,c,d,i=1;
+    int i=1,a,b,c;
+    printf("Armstrong number between 1 to 500 are:\n");
     while (i<=500)
     {
-
-        printf("i=%d\n",i);
-        a=i%10;
-        printf("a=%d\n",a);
-        i=i/10;
-        printf("i=%d\n",i);
-        b=i%10;
-        printf("b=%d\n",b);
-        i=i/10;
-        printf("i=%d\n",i);
-        printf("\n");
+        a=i%10; // Extract last digit
+        b=i%100;
+        b=(b-a)/10; // Extract second digit
+        c=i/100; // Extract first digit
+        if ((a*a*a)+(b*b*b)+(c*c*c)==i)
+            printf("%d\n",i); // For print Armstrong number.
         i++;
     }
-
+    return 0;
 }
-/*
- * #include <stdio.h>
-int main()
-{
-    int  j,k,l,m,n,o,p;
-    for (int i = 1; i < 10; ++i) {
-        k=i%10;
-        l=k*k*k;
-        if (i==l)
-        {
-            printf("The Armstrong number is %d\n",i);
-            continue;
-        }
-    }
-    for (int i = 10; i < 100; ++i) {
-        k=i%10;
-        l=k;
-        k=i%10;
-        n=k;
-        p=l+n;
-        if (i==p)
-        {
-            printf("The Armstrong number is %d\n",i);
-            continue;
-        }
-    }
-    for (int i = 101; i < 500; ++i) {
-        k=i%10;
-        l=k;
-        k=i%10;
-        n=k;
-        k=i%10;
-        m=k;
-        p=l+n+m;
-        if (i==p)
-        {
-            printf("The Armstrong number is %d\n",i);
-            continue;
-        }
-    }
-
-}
-/*
- * {
-    int k,l,m,sum;
-    for (int i = 1; i <501 ; i++)
-    {
-        for (int j = 1; j <=3; ++j)
-        {
-
-        }
-        /*
-        {
-            if (i<10)
-            {
-                k=i%10;
-                l=k*k*k;
-                if (i==l)
-                {
-                    printf("The Armstrong number is %d\n",i);
-                    break;
-                }
-            } else if (i<100)
-            {
-                k=i%10;
-                l=k*k*k;
-                i=i/10;
-                k=i%10;
-                m=k*k*k;
-                sum=l+m;
-                if (i==sum)
-                {
-                    printf("The Armstrong number is %d\n",i);
-                    break;
-                }
-            }
-}
-return 0;
-}
- */

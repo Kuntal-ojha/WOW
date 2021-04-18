@@ -1,4 +1,4 @@
-//
+// One More Example of Strings
 // Created by KUNTAL OJHA RAJ on 8/29/2020.
 //
 #include <stdio.h>

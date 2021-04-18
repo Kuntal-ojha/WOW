@@ -58,10 +58,10 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\dell\CLionProjects\MyProject\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -142,32 +142,32 @@ untitled2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/build
 .PHONY : untitled2/fast
 
-HM_Strings3.obj: HM_Strings3.c.obj
+C6_M_Complex_Repetitions_3.obj: C6_M_Complex_Repetitions_3.c.obj
 
-.PHONY : HM_Strings3.obj
+.PHONY : C6_M_Complex_Repetitions_3.obj
 
 # target to build an object file
-HM_Strings3.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/HM_Strings3.c.obj
-.PHONY : HM_Strings3.c.obj
+C6_M_Complex_Repetitions_3.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/C6_M_Complex_Repetitions_3.c.obj
+.PHONY : C6_M_Complex_Repetitions_3.c.obj
 
-HM_Strings3.i: HM_Strings3.c.i
+C6_M_Complex_Repetitions_3.i: C6_M_Complex_Repetitions_3.c.i
 
-.PHONY : HM_Strings3.i
+.PHONY : C6_M_Complex_Repetitions_3.i
 
 # target to preprocess a source file
-HM_Strings3.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/HM_Strings3.c.i
-.PHONY : HM_Strings3.c.i
+C6_M_Complex_Repetitions_3.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/C6_M_Complex_Repetitions_3.c.i
+.PHONY : C6_M_Complex_Repetitions_3.c.i
 
-HM_Strings3.s: HM_Strings3.c.s
+C6_M_Complex_Repetitions_3.s: C6_M_Complex_Repetitions_3.c.s
 
-.PHONY : HM_Strings3.s
+.PHONY : C6_M_Complex_Repetitions_3.s
 
 # target to generate assembly for a file
-HM_Strings3.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/HM_Strings3.c.s
-.PHONY : HM_Strings3.c.s
+C6_M_Complex_Repetitions_3.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled2.dir\build.make CMakeFiles/untitled2.dir/C6_M_Complex_Repetitions_3.c.s
+.PHONY : C6_M_Complex_Repetitions_3.c.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled2
-	@echo ... HM_Strings3.obj
-	@echo ... HM_Strings3.i
-	@echo ... HM_Strings3.s
+	@echo ... C6_M_Complex_Repetitions_3.obj
+	@echo ... C6_M_Complex_Repetitions_3.i
+	@echo ... C6_M_Complex_Repetitions_3.s
 .PHONY : help
 
 

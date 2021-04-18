@@ -1,0 +1,119 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+### C template
+*.exe
+*.make
+*.cmake
+*.rsp
+# Prerequisites
+*.d
+CMakeLists.txt
+.txt
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Kernel Module Compile Results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+.gitignore
+cmake-build-debug-coverage/
+cmake-build-debug/CMakeFiles/3.17.3/CompilerIdC/tmp/
+cmake-build-debug/CMakeFiles/CMakeTmp/
+cmake-build-debug/CMakeFiles/untitled2.dir/Array.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction10_Q_A_c.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction11_Q_A_d.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction17_Q_C_a.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction18_Q_C_b.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction19_Q_C_c.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction4.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction5.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C3_D_C_Instruction9_Q_A_b.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions10.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions11.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions12.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions14.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions15.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions3.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions6.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/C_Instructions7.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/File_IO.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/First_Year_2.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/First_Year_4_1.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/GATE_Unit_03_Q01.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/GATE_Unit_03_Q01_2.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/G_Started2.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/G_Started3.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/G_Started4.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/G_Started5.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/G_Started6.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/G_Started7.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/G_Started8.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/IO.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/IO10.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/IO2.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/IO9.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/Problem1_1.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/QA05.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/QA05_1.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/QA08.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/QA09.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/QA10.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/QA10_1.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/Structures10.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/Structures5.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/Structures7.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/Structures8.c.obj
+cmake-build-debug/CMakeFiles/untitled2.dir/Structures9.c.obj

@@ -1,7 +1,7 @@
-// Very Simple Example Bitwise OR (|) Operator .
-// Bitwise Operator (|)
+// Very Simple Example Bitwise XOR (^) Operator .
+// Bitwise Operator XOR (^)
 // Created by KUNTAL OJHA RAJ on 4/18/2021.
-/**  AND (&) Operator Truth Table.
+/**  XOR (^) Operator Truth Table.
  *      a  |  b | a^b
  *-----------------------------
  *      0  |  0 |  0

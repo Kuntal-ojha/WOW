@@ -1,7 +1,7 @@
 // Very Simple Example Bitwise OR (|) Operator.
 // Bitwise Operator (|)
 // Created by KUNTAL OJHA RAJ on 4/18/2021.
-/**  AND (&) Operator Truth Table.
+/**  OR (|) Operator Truth Table.
  *      a  |  b | a|b
  *-----------------------------
  *      0  |  0 |  0

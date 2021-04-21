@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/untitled2.dir/C6_M_Complex_Repetitions_3.c.obj"
+  "CMakeFiles/untitled2.dir/Bitwise_Operator.c.obj"
   "libuntitled2.dll.a"
   "untitled2.exe"
   "untitled2.exe.manifest"

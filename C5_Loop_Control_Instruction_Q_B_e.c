@@ -1,5 +1,6 @@
 // [B] Attempt the following :
-// Created by KUNTAL OJHA RAJ on 2/14/2021 And 2/15/2021.
+// Created by KUNTAL OJHA RAJ on 2/14/2021 And 2/15/2021.(mm/dd/yyyy)
+// Today i start again 08/05/2021 (dd/mm/yyyy)
 // Question (e)
 // Very Important Question.
 /*
@@ -20,7 +21,7 @@ int main()
         b=(b-a)/10; // Extract second digit
         c=i/100; // Extract first digit
         if ((a*a*a)+(b*b*b)+(c*c*c)==i)
-            printf("%d\n",i); // For print Armstrong number.
+            printf(" Armstrong number is: %d\n",i); // For print Armstrong number.
         i++;
     }
     return 0;

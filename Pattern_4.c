@@ -12,7 +12,7 @@
 int main()
 {
     int n,m;
-    printf("Enter the number of rows");
+    printf("Enter the number of rows\n");
     scanf("%d",&n);
     m=n;
     for(int i=1;i<=n;i++)
